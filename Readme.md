@@ -1,7 +1,6 @@
 ## Exposed endpoints:
 ```
-GET /health
-GET /holiday
+GET /api/v1/holiday
 ```
 
 ## How to build project
