@@ -1,0 +1,22 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/holidays": {
+            "get": {
+                "description": "Retrieve a list of Holidays",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Retrieve a list of Holidays",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}

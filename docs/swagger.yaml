@@ -1,0 +1,13 @@
+info:
+  contact: {}
+paths:
+  /holidays:
+    get:
+      description: Retrieve a list of Holidays
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: Retrieve a list of Holidays
+swagger: "2.0"
